@@ -1,0 +1,42 @@
+body {
+    background-color: #663399;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+}
+
+#display {
+    width: 100%;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 50px auto;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #9b59b6;
+    border: 2px solid #9b59b6;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.lap-function {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.lap-records {
+    font-size: 2.5rem;
+    color: white;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+}

@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
     </head>
+
     <body>
-        
+        <div class="container" id="stopwatch-container">
+            <div class="display" id="display">
+                00:00:00
+            </div>
+
+            <div class="button">
+                <button type="button" class="start-stop" id="start-stop">START</button>
+                <button type="button" class="reset" id="reset">RESET</button>
+            </div>
+
+            <div class="lap-function">
+                <h1 class="lap-records"> LAP RECORDS</h1>
+            </div>
+        </div>
         
         <script src="js/script.js" async defer></script>
     </body>
