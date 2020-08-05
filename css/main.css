@@ -40,3 +40,8 @@ button {
     border-bottom: 2px solid #ffffff;
     width: 100%;
 }
+#lap-list{
+    list-style: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
