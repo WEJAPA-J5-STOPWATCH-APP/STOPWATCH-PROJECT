@@ -45,3 +45,13 @@ button {
     color: #fff;
     font-size: 1.3rem;
 }
+
+@keyframes lap-animation{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+
+#lap-list > li{
+animation-name: lap-animation;
+animation-duration: 0.7s;
+}
