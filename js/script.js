@@ -71,6 +71,11 @@ function startStop() {
         window.clearInterval(interval);
         document.getElementById("startStop").innerHTML = 'START';
         status = "stopped";
+
+        let li = document.createElement('li');
+        li.innerHTML =  displayHours + ':' + displayMinutes + ':' + displaySeconds + ':' + displayMilliseconds;
+        let lapRecords = document.querySelector('#lap-list');
+        lapRecords.appendChild(li);
     }
 }
 
