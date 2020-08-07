@@ -73,7 +73,7 @@ function startStop() {
         status = "stopped";
 
         let li = document.createElement('li');
-        li.innerHTML =  displayHours + ':' + displayMinutes + ':' + displaySeconds + ':' + displayMilliseconds;
+        li.innerHTML =  `Lap Time is:  ${displayHours} : ${displayMinutes} : ${displaySeconds} : ${displayMilliseconds}`;
         let lapRecords = document.querySelector('#lap-list');
         lapRecords.appendChild(li);
     }
