@@ -80,9 +80,8 @@ function startStop() {
 };
 
 function lapClear() {
-    if (lapRecords = document.querySelector('#lap-list')) {
-        li.innerHTML = '';
-    }
+    let lapRecords = document.querySelector('#lap-list');
+    lapRecords.innerHTML = "";
 }
 
 
