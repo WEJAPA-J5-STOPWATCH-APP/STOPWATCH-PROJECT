@@ -77,7 +77,16 @@ function startStop() {
         let lapRecords = document.querySelector('#lap-list');
         lapRecords.appendChild(li);
     }
+};
+
+function lapClear() {
+    if (lapRecords = document.querySelector('#lap-list')) {
+        li.innerHTML = '';
+    }
 }
+
+
+
 
 function reset() {
     window.clearInterval(interval);
