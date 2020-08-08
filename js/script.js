@@ -63,13 +63,13 @@ function stopWatch() {
 function startStop() {
     if (status === "stopped") {
         interval = window.setInterval(stopWatch, 10);
-        document.getElementById("startStop").innerHTML = "STOP";
+        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-pause\"></i> STOP";
         status = 'started';
 
 
     } else {
         window.clearInterval(interval);
-        document.getElementById("startStop").innerHTML = 'START';
+        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-play\"></i> START";
         status = "stopped";
 
         let li = document.createElement('li');
@@ -96,5 +96,5 @@ function reset() {
     hours = 0;
 
     document.getElementById('display').innerHTML = "00:00:00:00";
-    document.getElementById('startStop').innerHTML = "START";
+    document.getElementById('startStop').innerHTML = "<i class=\"fa fa-play\"></i> START";
 }
