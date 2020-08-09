@@ -80,3 +80,11 @@ animation-duration: 0.7s;
     outline: none;
     cursor: pointer;
 }
+
+
+@media (max-width: 1028px) {
+    #display {
+        text-align: center;
+        font-size: 3.0rem;
+    }
+}
