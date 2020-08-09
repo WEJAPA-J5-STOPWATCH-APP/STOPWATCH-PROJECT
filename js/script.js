@@ -73,13 +73,13 @@ function stopWatch() {
 function startStop() {
     if (status === "stopped") {
         interval = window.setInterval(stopWatch, 10);
-        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-pause\"></i><br/>  STOP";
+        document.getElementById('startStop').innerHTML = "<i class=\"fa fa-pause\"></i> STOP";
         status = 'started';
-
+        
 
     } else {
         window.clearInterval(interval);
-        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-play\"></i><br/> START";
+        document.getElementById('startStop').innerHTML = "<i class=\"fa fa-play\"></i> START";
         status = "stopped";
 
         //records the lap value in a list

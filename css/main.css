@@ -1,5 +1,6 @@
 body { /*Sets the background color of the app*/
-    background-color: #663399;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -9,10 +10,10 @@ body { /*Sets the background color of the app*/
 
 #display {  /*Styling for the time values displayed*/
     width: 100%;
-    font-size: 4.5rem;
+    font-size: 6.5rem;
     text-align: center;
     margin: 50px auto;
-    color: #ffffff;
+    color: #000000;
     font-weight: 900;
 }
 
@@ -22,14 +23,29 @@ body { /*Sets the background color of the app*/
 
 button { /*Styling for the buttons*/
     padding: 8px 15px;
-    background-color: #9b59b6;
-    border: 1px solid #9b59b6;
     border-radius: 50%;
     height: 110px;
     width: 110px;
     color: white;
     font-weight: 800;
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.start-stop {
+    background-color: #00e640;
+    border: 1px solid #00e640;
+}
+
+.reset {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.lapClear {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 .lap-function {
@@ -39,14 +55,14 @@ button { /*Styling for the buttons*/
 
 .lap-records {
     font-size: 2.5rem;
-    color: white;
-    border-bottom: 2px solid #ffffff;
+    color: #000000;
+    border-bottom: 3px solid #000000;
     width: 100%;
 }
 
 #lap-list{
     list-style: none;
-    color: #fff;
+    color: #000000;
     font-size: 1.3rem;
 }
 
@@ -63,4 +79,12 @@ animation-duration: 0.7s;
 #startStop, #reset, #lapClear{  /*Clear Outline and cursor change*/
     outline: none;
     cursor: pointer;
+}
+
+
+@media (max-width: 1028px) {
+    #display {
+        text-align: center;
+        font-size: 3.0rem;
+    }
 }
