@@ -50,7 +50,7 @@ button { /*Styling for the buttons*/
 
 .lap-function {
     text-align: center;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .lap-records {
@@ -75,6 +75,7 @@ button { /*Styling for the buttons*/
 animation-name: lap-animation;
 animation-duration: 0.7s;
 }
+<<<<<<< HEAD
 
 @media (max-width: 1028px) {
     #display{
@@ -88,3 +89,11 @@ animation-duration: 0.7s;
         font-size: 0.8rem;
     }
 }
+||||||| 1457232
+=======
+
+#startStop, #reset, #lapClear{  /*Clear Outline and cursor change*/
+    outline: none;
+    cursor: pointer;
+}
+>>>>>>> 7e77b731bb4eb958ad9c06d119ef9c18fe1eea80

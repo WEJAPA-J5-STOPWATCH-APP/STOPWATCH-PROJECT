@@ -73,13 +73,25 @@ function stopWatch() {
 function startStop() {
     if (status === "stopped") {
         interval = window.setInterval(stopWatch, 10);
+<<<<<<< HEAD
         document.getElementById('startStop').innerHTML = "<i class=\"fa fa-pause\"></i> STOP";
+||||||| 1457232
+        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-pause\"></i> STOP";
+=======
+        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-pause\"></i><br/>  STOP";
+>>>>>>> 7e77b731bb4eb958ad9c06d119ef9c18fe1eea80
         status = 'started';
         
 
     } else {
         window.clearInterval(interval);
+<<<<<<< HEAD
         document.getElementById('startStop').innerHTML = "<i class=\"fa fa-play\"></i> START";
+||||||| 1457232
+        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-play\"></i> START";
+=======
+        document.getElementById("startStop").innerHTML = "<i class=\"fa fa-play\"></i><br/> START";
+>>>>>>> 7e77b731bb4eb958ad9c06d119ef9c18fe1eea80
         status = "stopped";
 
         //records the lap value in a list
