@@ -34,7 +34,7 @@ button { /*Styling for the buttons*/
 
 .lap-function {
     text-align: center;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .lap-records {
@@ -58,4 +58,9 @@ button { /*Styling for the buttons*/
 #lap-list > li{
 animation-name: lap-animation;
 animation-duration: 0.7s;
+}
+
+#startStop, #reset, #lapClear{  /*Clear Outline and cursor change*/
+    outline: none;
+    cursor: pointer;
 }
