@@ -15,6 +15,7 @@ body { /*Sets the background color of the app*/
     margin: 50px auto;
     color: #000000;
     font-weight: 900;
+    font-family: arial;
 }
 
 .button {
