@@ -1,4 +1,4 @@
-body {
+body { /*Sets the background color of the app*/
     background-color: #663399;
 }
 
@@ -7,7 +7,7 @@ body {
     height: 300px;
 }
 
-#display {
+#display {  /*Styling for the time values displayed*/
     width: 100%;
     font-size: 4.5rem;
     text-align: center;
@@ -20,10 +20,13 @@ body {
     text-align: center;
 }
 
-button {
+button { /*Styling for the buttons*/
     padding: 8px 15px;
     background-color: #9b59b6;
-    border: 2px solid #9b59b6;
+    border: 1px solid #9b59b6;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
     color: white;
     font-weight: 800;
     font-size: 1.2rem;
@@ -47,7 +50,7 @@ button {
     font-size: 1.3rem;
 }
 
-@keyframes lap-animation{
+@keyframes lap-animation{   /*Animation that displays the lap list in an interval of secs*/
     0%{transform: scale(0);}
     100%{transform: scale(1);}
 }
